@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>Homebrew</head>
+  <meta charset="UTF8">
+    <body> 
+      <h1>Homebrey</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Homebrew_logo.svg/800px-Homebrew_logo.svg.png" width="200" height="300">
+          <h2>Description</h2>
+              <p><pre>
+                <strong>Homebrew</strong> — утилита командной строки в macOS и Linux, которая позволяет устанавливать пакеты и приложения.
+                Распространяется как свободное программное обеспечение с открытым кодом. 
+                Написана Максом Хауэллом на языке программирования Ruby. Активно поддерживается сообществом GitHub.
+                В 2013 году разработка была профинансирована с помощью платформы Kickstarter.
+                Английское слово homebrew в узком смысле означает пиво домашнего изготовления, в широком — вообще любую самоделку.
+              </pre></p>
+              <h3>Install</h3>
+              <p><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</code></p>
+              <h3>Using</h3>
+              <p><strong>Установка приложений через Homebrew</strong>
+                <pre>После того, как сам менеджер пакетов установлен, с его помощью можно, к примеру, вернуть в macOS утилиту telnet:
+                
+                <code>brew install telnet</code>
+                Или установить браузер Firefox:
+                
+                <code>brew cask install firefox</code>
+                Поиск утилит и приложений в репозитории осуществляется также в окне терминала.
+                
+                Допустим, нужно осуществить поиск по ключевому слову «office». Тогда команда будет иметь вид:
+                
+                <code>brew search office</code>
+                Что приведёт к выводу следующей информации:
+                
+                
+                <code>==> Formulae
+                
+                goffice
+                
+                
+                ==> Casks
+                
+                devonthink-pro-office
+                lehreroffice
+                lehreroffice-zusatz
+                libreoffice
+                libreoffice-language-pack
+                microsoft-office
+                onlyoffice
+                openoffice
+                homebrew/cask-fonts/font-office-code-pro
+                homebrew/cask-versions/microsoft-office-2011
+                </code>
+              </pre></p>
+
+                <h3>Python 3 installation</h3>
+                <p><pre>Чтобы скачать и установить последнюю версию Python, выполните следующую команду:
+
+                  <code>$ brew install python3
+                  Подождите пока установятся все зависимости и сам python 3
+                  Теперь давайте подтвердим, какая версия установилась:
+                  </code>
+                  <code>$ python3 --version
+                  Python 3.7.0
+                  </code>
+                </pre></p>
+</html>
